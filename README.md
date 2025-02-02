@@ -6,7 +6,7 @@ https://www.youtube.com/playlist?list=PLGs0VKk2DiYxP-ElZ7-QXIERFFPkOuP4_
 
 **Note:**
 
-I went through the series 3 years after its initial release.
+I went through the series 3-4 years after its initial release.
 
 Therefore, I had a different NVIDIA JetPack SDK (more contemporary) and also a slightly different hardware configuration from his.
 

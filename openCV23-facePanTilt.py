@@ -23,10 +23,10 @@ cam = cv2.VideoCapture(1)
 cam.set(3, dispW)
 cam.set(4, dispH)
 
-face_cascade = cv2.CascadeClassifier("/home/cuci/Documents/pyProg/cascade/face.xml")
-#profile_cascade = cv2.CascadeClassifier("/home/cuci/Documents/pyProg/cascade/profile.xml")
-eye_cascade = cv2.CascadeClassifier("/home/cuci/Documents/pyProg/cascade/eye.xml")
-#bodyup_cascade = cv2.CascadeClassifier("/home/cuci/Documents/pyProg/cascade/bodyup.xml")
+face_cascade = cv2.CascadeClassifier("/home/your_user_name/Documents/pyProg/cascade/face.xml")
+#profile_cascade = cv2.CascadeClassifier("/home/your_user_name/Documents/pyProg/cascade/profile.xml")
+eye_cascade = cv2.CascadeClassifier("/home/your_user_name/Documents/pyProg/cascade/eye.xml")
+#bodyup_cascade = cv2.CascadeClassifier("/home/your_user_name/Documents/pyProg/cascade/bodyup.xml")
 
 while True:
     ret, frame = cam.read()

@@ -9,7 +9,7 @@ flip = 0
 camSet = 'nvarguscamerasrc !  video/x-raw(memory:NVMM), width=3264, height=2464, format=NV12, framerate=21/1 ! nvvidconv flip-method='+ str(flip) +' ! video/x-raw, width='+ str(dispW) +', height='+ str(dispH) +', format=BGRx ! videoconvert ! video/x-raw, format=BGR ! appsink'
 cam = cv2.VideoCapture(camSet)
 
-PL = cv2.imread('/home/cuci/Documents/pyProg/pl.jpg')
+PL = cv2.imread('/home/your_user_name/Documents/pyProg/pl.jpg')
 PL = cv2.resize(PL, (85, 85))
 cv2.imshow('LogoWindow', PL)
 cv2.moveWindow('LogoWindow', 650, 10)

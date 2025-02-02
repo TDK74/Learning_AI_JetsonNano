@@ -16,8 +16,8 @@ cam = cv2.VideoCapture(1)
 cam.set(3, dispW)
 cam.set(4, dispH)
 
-face_cascade = cv2.CascadeClassifier("/home/cuci/Documents/pyProg/cascade/face.xml")
-eye_cascade = cv2.CascadeClassifier("/home/cuci/Documents/pyProg/cascade/eye.xml")
+face_cascade = cv2.CascadeClassifier("/home/your_user_name/Documents/pyProg/cascade/face.xml")
+eye_cascade = cv2.CascadeClassifier("/home/your_user_name/Documents/pyProg/cascade/eye.xml")
 
 while True:
     ret, frame = cam.read()

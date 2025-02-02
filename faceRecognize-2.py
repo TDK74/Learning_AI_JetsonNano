@@ -3,20 +3,20 @@ import cv2
 print(cv2.__version__)
 
 
-donFace = face_rec.load_image_file('/home/cuci/Desktop/pyProg/faceRecognizer/demoImages/known/Donald Trump.jpg')
+donFace = face_rec.load_image_file('/home/your_user_name/Desktop/pyProg/faceRecognizer/demoImages/known/Donald Trump.jpg')
 donEncode = face_rec.face_encodings(donFace)[0]
 
-nancyFace = face_rec.load_image_file('/home/cuci/Desktop/pyProg/faceRecognizer/demoImages/known/Nancy Pelosi.jpg')
+nancyFace = face_rec.load_image_file('/home/your_user_name/Desktop/pyProg/faceRecognizer/demoImages/known/Nancy Pelosi.jpg')
 nancyEncode = face_rec.face_encodings(nancyFace)[0]
 
-penceFace = face_rec.load_image_file('/home/cuci/Desktop/pyProg/faceRecognizer/demoImages/known/Mike Pence.jpg')
+penceFace = face_rec.load_image_file('/home/your_user_name/Desktop/pyProg/faceRecognizer/demoImages/known/Mike Pence.jpg')
 penceEncode = face_rec.face_encodings(penceFace)[0]
 
 Encodings = [donEncode, nancyEncode, penceEncode]
 Names = ['Donald Trump', 'Nancy Pelosi', 'Mike Pence']
 
 font = cv2.FONT_HERSHEY_SIMPLEX
-testImage = face_rec.load_image_file('/home/cuci/Desktop/pyProg/faceRecognizer/demoImages/unknown/u11.jpg')
+testImage = face_rec.load_image_file('/home/your_user_name/Desktop/pyProg/faceRecognizer/demoImages/unknown/u11.jpg')
 facePositions = face_rec.face_locations(testImage)
 allEncodings = face_rec.face_encodings(testImage, facePositions)
 testImage = cv2.cvtColor(testImage, cv2.COLOR_RGB2BGR)

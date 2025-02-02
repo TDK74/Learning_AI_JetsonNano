@@ -3,7 +3,7 @@ import cv2
 print(cv2.__version__)
 
 
-image = face_rec.load_image_file('/home/cuci/Desktop/pyProg/faceRecognizer/demoImages/unknown/u3.jpg')
+image = face_rec.load_image_file('/home/your_user_name/Desktop/pyProg/faceRecognizer/demoImages/unknown/u3.jpg')
 face_locations = face_rec.face_locations(image)
 print(face_locations)
 image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)

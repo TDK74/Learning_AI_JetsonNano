@@ -13,7 +13,7 @@ dispW = 320
 dispH = 240
 flip = 0
 
-cvLogo = cv2.imread('/home/cuci/Documents/pyProg/cv.jpg')
+cvLogo = cv2.imread('/home/your_user_name/Documents/pyProg/cv.jpg')
 cvLogo = cv2.resize(cvLogo, (320, 240))
 cvLogoGray = cv2.cvtColor(cvLogo, cv2.COLOR_BGR2GRAY)
 cv2.imshow('cvLogoGray', cvLogoGray)

@@ -24,7 +24,7 @@ for root, dirs, files in os.walk(image_dir):
 print(Names)
 
 font = cv2.FONT_HERSHEY_SIMPLEX
-testImage = face_rec.load_image_file('/home/cuci/Desktop/pyProg/faceRecognizer/demoImages/unknown/u13.jpg')
+testImage = face_rec.load_image_file('/home/your_user_name/Desktop/pyProg/faceRecognizer/demoImages/unknown/u13.jpg')
 facePositions = face_rec.face_locations(testImage)
 allEncodings = face_rec.face_encodings(testImage, facePositions)
 testImage = cv2.cvtColor(testImage, cv2.COLOR_RGB2BGR)

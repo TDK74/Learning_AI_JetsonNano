@@ -2,7 +2,7 @@
 
 Based on the YouTube series of (the Grand Master) Paul McWhorter. Mister/Master Paul McWhorter is legendary.
 
-https://www.youtube.com/playlist?list=PLGs0VKk2DiYxP-ElZ7-QXIERFFPkOuP4_
+(https://www.youtube.com/playlist?list=PLGs0VKk2DiYxP-ElZ7-QXIERFFPkOuP4_)
 
 **Note:**
 

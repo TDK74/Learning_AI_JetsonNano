@@ -27,7 +27,7 @@ That's why I had to adapt from time to time the code etc. in order to work for m
 
 **BoardIDs:** p3448
 
-**Module:** NVIDIA Jetson Nano (4 GB ram)
+**Module:** NVIDIA Jetson Nano (4 GB RAM)
 
 **SoC:** tegra210
 

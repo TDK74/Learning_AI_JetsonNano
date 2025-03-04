@@ -31,15 +31,13 @@ That's why I had to adapt from time to time the code etc. in order to work for m
 
 **SoC:** tegra210
 
-**CUDA Arch BIN:** 5.3
-
 **Codename:** Porq
-
-**L4T:** 32.7.6
 
 **Processor:** ARMv8 Processor rev.1 (v8l) x 4
 
 **Graphics:** NVIDIA Tegra X1 (nvgpu)/integrated
+
+**CUDA Arch BIN:** 5.3
 
 **Memory:** 3.9 GiB
 
@@ -53,7 +51,11 @@ That's why I had to adapt from time to time the code etc. in order to work for m
 
 **OS type:** 64-bit
 
-**Release:** 4.9.337-tegra                                                             
+**Release:** 4.9.337-tegra
+
+**L4T:** 32.7.6
+
+**Jetpack:** 4.6.6
 
 **Python:** 3.6.9                                                                      
 

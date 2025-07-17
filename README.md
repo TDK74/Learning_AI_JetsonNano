@@ -73,3 +73,8 @@ That's why I had to adapt from time to time the code etc. in order to work for m
 **Vulkan:** 1.2.70
 
 **OpenCV:** 4.5.1 with CUDA: YES
+  
+  
+## Video demo
+Link to my illustrative Youtube video:  
+https://youtu.be/UrYEcI575t4
